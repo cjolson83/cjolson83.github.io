@@ -13,12 +13,6 @@ ul {
     margin-top: 5px
 }
 
-button {
-    background-color: white;
-    color:blue;
-    border: 0px white
-}
-
-button:hover {
-    font-size: medium;
+a {
+    color: blue
 }
