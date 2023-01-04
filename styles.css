@@ -1,0 +1,24 @@
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+h4{
+    margin: 1px
+}
+
+ul {
+    margin-top: 5px
+}
+
+button {
+    background-color: white;
+    color:blue;
+    border: 0px white
+}
+
+button:hover {
+    font-size: medium;
+}
