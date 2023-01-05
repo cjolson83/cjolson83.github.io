@@ -6,6 +6,19 @@ body {
     flex-direction: column;
 }
 
+#cj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+h1{
+    font-size: 50pt;
+    margin: 20px;
+    margin-left: .5%;
+}
+
 h2 {
     margin-bottom: 5px;
 }
@@ -15,7 +28,7 @@ h4{
 }
 
 p {
-    margin-left: 1%;
+    margin-left: .2%;
     margin-top: 8px;
     line-height: 120%;
 }
@@ -25,7 +38,7 @@ ul {
 }
 
 a {
-    color: blue
+    color: rgb(78, 154, 200)
 }
 
 #skills {
