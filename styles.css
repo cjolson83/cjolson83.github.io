@@ -1,8 +1,7 @@
 body {
-    width: 90vw;
+    width: 93vw;
     font-family: 'Quattrocento Sans', sans-serif;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 3%;
     display: flex;
     flex-direction: column;
     background-color: rgb(33, 32, 32);
@@ -13,8 +12,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 3%;
+    margin-right: 5%;
     margin-top: 2%;
+}
+
+#about {
+    margin-top: 0%;
 }
 
 h1{
@@ -58,4 +61,8 @@ a {
     font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 23pt;
+}
+
+#cjpic {
+    border-radius: 100%;
 }
