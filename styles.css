@@ -1,5 +1,5 @@
 body {
-    width: 93vw;
+    width: 95%;
     font-family: 'Quattrocento Sans', sans-serif;
     margin: 3%;
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 h1{
-    font-size: 10vh;
+    font-size: 75pt;
     margin: 20px;
     margin-left: .5%;
 }
@@ -53,26 +53,28 @@ a {
 #skills {
     display: flex;
     justify-content: space-between;
+    width: 50%;
 
 }
 
 #indSkills {
-    width: 30%;
+    width: 15%;
 }
+
 
 #MRS {
     font-family: 'Permanent Marker', cursive;
     color: white;
-    font-size: 23pt;
+    font-size: 20pt;
 }
 
 #cjpic {
     border-radius: 100%;
-    width: 25vh;
+    width: 275px;
 }
 
 #contact {
-    width: 30vw;
+    width: 15%;
     display: flex;
     justify-content: space-between;
     margin-top: 1%;
@@ -80,7 +82,6 @@ a {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-      background: #999;
       width: 100%;
     }
   }
