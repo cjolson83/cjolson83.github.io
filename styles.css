@@ -28,11 +28,12 @@ h1{
 
 h2 {
     margin-bottom: 5px;
-    font-size: 23pt;
+    font-size: 25pt;
 }
 
 h4{
-    margin: 1px
+    margin: 1px;
+    font-size: 15pt;
 }
 
 p {
@@ -41,9 +42,16 @@ p {
     line-height: 120%;
 }
 
-ul {
+#skillsUL {
     margin-top: 5px;
     padding-left: 20px;
+    display: inline-grid;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+}
+
+li {
+    padding-right: 35px;
 }
 
 a {
@@ -51,16 +59,14 @@ a {
 }
 
 #skills {
+    margin-top: 4px;
     display: flex;
-    justify-content: space-between;
-    width: 50%;
-
 }
 
 #indSkills {
-    width: 15%;
+    width: fit-content;
+    margin-right: 35px;
 }
-
 
 #MRS {
     font-family: 'Permanent Marker', cursive;
@@ -90,5 +96,12 @@ a {
         font-size: 13vw;
         margin: 20px;
         margin-left: .5%;
+    }
+    #skillsUL {
+        margin-top: 5px;
+        padding-left: 20px;
+        display: inline-grid;
+        grid-template-rows: repeat(8, auto);
+        grid-auto-flow: column;
     }
   }
