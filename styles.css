@@ -80,8 +80,14 @@ a {
     margin-top: 1%;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-      width: 100%;
+@media (max-width: 600px) {
+    #cjpic {
+        border-radius: 100%;
+        width: 40vw;
+    }
+    h1{
+        font-size: 13vw;
+        margin: 20px;
+        margin-left: .5%;
     }
   }
