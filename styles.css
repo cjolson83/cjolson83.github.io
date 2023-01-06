@@ -104,4 +104,7 @@ a {
         grid-template-rows: repeat(8, auto);
         grid-auto-flow: column;
     }
+    #indSkills {
+        width: fit-content;
+    }
   }
