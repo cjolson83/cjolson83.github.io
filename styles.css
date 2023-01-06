@@ -104,7 +104,8 @@ a {
         flex-direction: column;
     }
 
-    #indSkills {
-        width: fit-content;
+    #skillsUL > li {
+        width: 150px;
     }
+
   }
